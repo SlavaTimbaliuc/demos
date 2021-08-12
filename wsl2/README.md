@@ -22,7 +22,7 @@ By default, your windows files are located at `/mnt/<drive_letter>`. So, your C:
 ## Localhost forwarding
 By default, starting up server / docker might not work very well because, while the containers and apps will start in the shell,
 you may not be able to access them. For example, you might start a django app, and it will run successfully, but you won't
-be able to hit it on http://localhost:5000. This is because WSL2 is actually running a virtual machine and the app is running
+be able to hit it on http://localhost:8000/admin. This is because WSL2 is actually running a virtual machine and the app is running
 on localhost on the machine itself. There are way to get around this by pointing to the specific IP of the machine on the windows side,
 but by far the easier way around this is to make sure that localhost forwarding is turned on.
 
